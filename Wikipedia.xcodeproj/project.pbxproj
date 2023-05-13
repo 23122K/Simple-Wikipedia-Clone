@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F82C7142A0FB5EA005A8B63 /* WikipediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7132A0FB5EA005A8B63 /* WikipediaApp.swift */; };
+		6F82C7162A0FB5EA005A8B63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7152A0FB5EA005A8B63 /* ContentView.swift */; };
+		6F82C7182A0FB5EB005A8B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F82C7172A0FB5EB005A8B63 /* Assets.xcassets */; };
+		6F82C71B2A0FB5EB005A8B63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F82C71A2A0FB5EB005A8B63 /* Preview Assets.xcassets */; };
+		6F82C7272A0FB638005A8B63 /* CodingUserInfoKey+Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7262A0FB638005A8B63 /* CodingUserInfoKey+Context.swift */; };
+		6F82C72A2A0FB66A005A8B63 /* Wikipedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7282A0FB66A005A8B63 /* Wikipedia.xcdatamodeld */; };
+		6F82C7302A0FB81A005A8B63 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C72F2A0FB81A005A8B63 /* Model.swift */; };
+		6F82C7332A0FB844005A8B63 /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7322A0FB844005A8B63 /* HTTPManager.swift */; };
+		6F82C7352A0FB84B005A8B63 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7342A0FB84B005A8B63 /* CoreDataManager.swift */; };
+		6F82C7372A0FB8D4005A8B63 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7362A0FB8D4005A8B63 /* ViewModel.swift */; };
+		6F82C73A2A0FB956005A8B63 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7382A0FB956005A8B63 /* Page.swift */; };
+		6F82C73B2A0FB956005A8B63 /* Page+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7392A0FB956005A8B63 /* Page+CoreDataProperties.swift */; };
+		6F82C73D2A0FB9D4005A8B63 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C73C2A0FB9D4005A8B63 /* SearchBar.swift */; };
+		6F82C73F2A0FB9FB005A8B63 /* CustomSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C73E2A0FB9FB005A8B63 /* CustomSection.swift */; };
+		6F82C7412A0FBA16005A8B63 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7402A0FBA16005A8B63 /* RowView.swift */; };
+		6F82C7432A0FBA25005A8B63 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7422A0FBA25005A8B63 /* HomeView.swift */; };
+		6F82C7452A0FBA36005A8B63 /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7442A0FBA36005A8B63 /* SearchResultsView.swift */; };
+		6F82C7472A0FBA4E005A8B63 /* PageDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7462A0FBA4E005A8B63 /* PageDetailedView.swift */; };
+		6F82C7492A0FD3E2005A8B63 /* CustomNavigationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7482A0FD3E2005A8B63 /* CustomNavigationViewModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F82C7102A0FB5EA005A8B63 /* Wikipedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wikipedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F82C7132A0FB5EA005A8B63 /* WikipediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaApp.swift; sourceTree = "<group>"; };
+		6F82C7152A0FB5EA005A8B63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F82C7172A0FB5EB005A8B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F82C71A2A0FB5EB005A8B63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F82C7262A0FB638005A8B63 /* CodingUserInfoKey+Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodingUserInfoKey+Context.swift"; sourceTree = "<group>"; };
+		6F82C7292A0FB66A005A8B63 /* Wikipedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wikipedia.xcdatamodel; sourceTree = "<group>"; };
+		6F82C72F2A0FB81A005A8B63 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6F82C7322A0FB844005A8B63 /* HTTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
+		6F82C7342A0FB84B005A8B63 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		6F82C7362A0FB8D4005A8B63 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		6F82C7382A0FB956005A8B63 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		6F82C7392A0FB956005A8B63 /* Page+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6F82C73C2A0FB9D4005A8B63 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		6F82C73E2A0FB9FB005A8B63 /* CustomSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSection.swift; sourceTree = "<group>"; };
+		6F82C7402A0FBA16005A8B63 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		6F82C7422A0FBA25005A8B63 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6F82C7442A0FBA36005A8B63 /* SearchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsView.swift; sourceTree = "<group>"; };
+		6F82C7462A0FBA4E005A8B63 /* PageDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDetailedView.swift; sourceTree = "<group>"; };
+		6F82C7482A0FD3E2005A8B63 /* CustomNavigationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F82C70D2A0FB5EA005A8B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F82C7072A0FB5EA005A8B63 = {
+			isa = PBXGroup;
+			children = (
+				6F82C7122A0FB5EA005A8B63 /* Wikipedia */,
+				6F82C7112A0FB5EA005A8B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F82C7112A0FB5EA005A8B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F82C7102A0FB5EA005A8B63 /* Wikipedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F82C7122A0FB5EA005A8B63 /* Wikipedia */ = {
+			isa = PBXGroup;
+			children = (
+				6F82C7132A0FB5EA005A8B63 /* WikipediaApp.swift */,
+				6F82C7312A0FB836005A8B63 /* Utilities */,
+				6F82C7252A0FB618005A8B63 /* Extensions */,
+				6F82C7242A0FB613005A8B63 /* Core Data */,
+				6F82C7232A0FB60A005A8B63 /* Model */,
+				6F82C7222A0FB5FA005A8B63 /* View Model */,
+				6F82C7212A0FB5F1005A8B63 /* Views */,
+				6F82C7152A0FB5EA005A8B63 /* ContentView.swift */,
+				6F82C7172A0FB5EB005A8B63 /* Assets.xcassets */,
+				6F82C7192A0FB5EB005A8B63 /* Preview Content */,
+			);
+			path = Wikipedia;
+			sourceTree = "<group>";
+		};
+		6F82C7192A0FB5EB005A8B63 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F82C71A2A0FB5EB005A8B63 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F82C7212A0FB5F1005A8B63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F82C73C2A0FB9D4005A8B63 /* SearchBar.swift */,
+				6F82C73E2A0FB9FB005A8B63 /* CustomSection.swift */,
+				6F82C7482A0FD3E2005A8B63 /* CustomNavigationViewModifier.swift */,
+				6F82C7402A0FBA16005A8B63 /* RowView.swift */,
+				6F82C7422A0FBA25005A8B63 /* HomeView.swift */,
+				6F82C7442A0FBA36005A8B63 /* SearchResultsView.swift */,
+				6F82C7462A0FBA4E005A8B63 /* PageDetailedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F82C7222A0FB5FA005A8B63 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F82C7362A0FB8D4005A8B63 /* ViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		6F82C7232A0FB60A005A8B63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F82C72F2A0FB81A005A8B63 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F82C7242A0FB613005A8B63 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				6F82C7382A0FB956005A8B63 /* Page.swift */,
+				6F82C7282A0FB66A005A8B63 /* Wikipedia.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		6F82C7252A0FB618005A8B63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6F82C7392A0FB956005A8B63 /* Page+CoreDataProperties.swift */,
+				6F82C7262A0FB638005A8B63 /* CodingUserInfoKey+Context.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6F82C7312A0FB836005A8B63 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6F82C7322A0FB844005A8B63 /* HTTPManager.swift */,
+				6F82C7342A0FB84B005A8B63 /* CoreDataManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F82C70F2A0FB5EA005A8B63 /* Wikipedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F82C71E2A0FB5EB005A8B63 /* Build configuration list for PBXNativeTarget "Wikipedia" */;
+			buildPhases = (
+				6F82C70C2A0FB5EA005A8B63 /* Sources */,
+				6F82C70D2A0FB5EA005A8B63 /* Frameworks */,
+				6F82C70E2A0FB5EA005A8B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wikipedia;
+			productName = Wikipedia;
+			productReference = 6F82C7102A0FB5EA005A8B63 /* Wikipedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F82C7082A0FB5EA005A8B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6F82C70F2A0FB5EA005A8B63 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F82C70B2A0FB5EA005A8B63 /* Build configuration list for PBXProject "Wikipedia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F82C7072A0FB5EA005A8B63;
+			productRefGroup = 6F82C7112A0FB5EA005A8B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F82C70F2A0FB5EA005A8B63 /* Wikipedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F82C70E2A0FB5EA005A8B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F82C71B2A0FB5EB005A8B63 /* Preview Assets.xcassets in Resources */,
+				6F82C7182A0FB5EB005A8B63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F82C70C2A0FB5EA005A8B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F82C73B2A0FB956005A8B63 /* Page+CoreDataProperties.swift in Sources */,
+				6F82C7432A0FBA25005A8B63 /* HomeView.swift in Sources */,
+				6F82C7372A0FB8D4005A8B63 /* ViewModel.swift in Sources */,
+				6F82C7302A0FB81A005A8B63 /* Model.swift in Sources */,
+				6F82C7272A0FB638005A8B63 /* CodingUserInfoKey+Context.swift in Sources */,
+				6F82C7472A0FBA4E005A8B63 /* PageDetailedView.swift in Sources */,
+				6F82C7492A0FD3E2005A8B63 /* CustomNavigationViewModifier.swift in Sources */,
+				6F82C72A2A0FB66A005A8B63 /* Wikipedia.xcdatamodeld in Sources */,
+				6F82C7162A0FB5EA005A8B63 /* ContentView.swift in Sources */,
+				6F82C7452A0FBA36005A8B63 /* SearchResultsView.swift in Sources */,
+				6F82C73F2A0FB9FB005A8B63 /* CustomSection.swift in Sources */,
+				6F82C7412A0FBA16005A8B63 /* RowView.swift in Sources */,
+				6F82C7142A0FB5EA005A8B63 /* WikipediaApp.swift in Sources */,
+				6F82C73A2A0FB956005A8B63 /* Page.swift in Sources */,
+				6F82C7352A0FB84B005A8B63 /* CoreDataManager.swift in Sources */,
+				6F82C73D2A0FB9D4005A8B63 /* SearchBar.swift in Sources */,
+				6F82C7332A0FB844005A8B63 /* HTTPManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F82C71C2A0FB5EB005A8B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F82C71D2A0FB5EB005A8B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F82C71F2A0FB5EB005A8B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wikipedia/Preview Content\"";
+				DEVELOPMENT_TEAM = V9R36M3H42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Wikipedia;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = mcig.Wikipedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6F82C7202A0FB5EB005A8B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wikipedia/Preview Content\"";
+				DEVELOPMENT_TEAM = V9R36M3H42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Wikipedia;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = mcig.Wikipedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F82C70B2A0FB5EA005A8B63 /* Build configuration list for PBXProject "Wikipedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F82C71C2A0FB5EB005A8B63 /* Debug */,
+				6F82C71D2A0FB5EB005A8B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F82C71E2A0FB5EB005A8B63 /* Build configuration list for PBXNativeTarget "Wikipedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F82C71F2A0FB5EB005A8B63 /* Debug */,
+				6F82C7202A0FB5EB005A8B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F82C7282A0FB66A005A8B63 /* Wikipedia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F82C7292A0FB66A005A8B63 /* Wikipedia.xcdatamodel */,
+			);
+			currentVersion = 6F82C7292A0FB66A005A8B63 /* Wikipedia.xcdatamodel */;
+			path = Wikipedia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F82C7082A0FB5EA005A8B63 /* Project object */;
+}
