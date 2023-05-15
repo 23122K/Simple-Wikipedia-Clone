@@ -28,6 +28,7 @@ struct SearchBar: View {
                     .autocorrectionDisabled(true)
                     .textInputAutocapitalization(.never)
                     .foregroundColor(.black.opacity(0.4))
+                    .disabled(!isUsed)
             }
             .frame(height: 40)
             .background(content: {

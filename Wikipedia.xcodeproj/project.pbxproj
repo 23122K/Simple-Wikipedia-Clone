@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F5F9D552A12031F00F51B8E /* WikipediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5F9D542A12031F00F51B8E /* WikipediaTests.swift */; };
 		6F82C7142A0FB5EA005A8B63 /* WikipediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7132A0FB5EA005A8B63 /* WikipediaApp.swift */; };
 		6F82C7162A0FB5EA005A8B63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7152A0FB5EA005A8B63 /* ContentView.swift */; };
 		6F82C7182A0FB5EB005A8B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F82C7172A0FB5EB005A8B63 /* Assets.xcassets */; };
@@ -28,7 +29,19 @@
 		6F82C7492A0FD3E2005A8B63 /* CustomNavigationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F82C7482A0FD3E2005A8B63 /* CustomNavigationViewModifier.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6F5F9D562A12031F00F51B8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F82C7082A0FB5EA005A8B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F82C70F2A0FB5EA005A8B63;
+			remoteInfo = Wikipedia;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6F5F9D522A12031F00F51B8E /* WikipediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikipediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5F9D542A12031F00F51B8E /* WikipediaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaTests.swift; sourceTree = "<group>"; };
 		6F82C7102A0FB5EA005A8B63 /* Wikipedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wikipedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F82C7132A0FB5EA005A8B63 /* WikipediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaApp.swift; sourceTree = "<group>"; };
 		6F82C7152A0FB5EA005A8B63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +65,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6F5F9D4F2A12031F00F51B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F82C70D2A0FB5EA005A8B63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,10 +82,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F5F9D532A12031F00F51B8E /* WikipediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F5F9D542A12031F00F51B8E /* WikipediaTests.swift */,
+			);
+			path = WikipediaTests;
+			sourceTree = "<group>";
+		};
 		6F82C7072A0FB5EA005A8B63 = {
 			isa = PBXGroup;
 			children = (
 				6F82C7122A0FB5EA005A8B63 /* Wikipedia */,
+				6F5F9D532A12031F00F51B8E /* WikipediaTests */,
 				6F82C7112A0FB5EA005A8B63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				6F82C7102A0FB5EA005A8B63 /* Wikipedia.app */,
+				6F5F9D522A12031F00F51B8E /* WikipediaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +193,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6F5F9D512A12031F00F51B8E /* WikipediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5F9D582A12031F00F51B8E /* Build configuration list for PBXNativeTarget "WikipediaTests" */;
+			buildPhases = (
+				6F5F9D4E2A12031F00F51B8E /* Sources */,
+				6F5F9D4F2A12031F00F51B8E /* Frameworks */,
+				6F5F9D502A12031F00F51B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F5F9D572A12031F00F51B8E /* PBXTargetDependency */,
+			);
+			name = WikipediaTests;
+			productName = WikipediaTests;
+			productReference = 6F5F9D522A12031F00F51B8E /* WikipediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6F82C70F2A0FB5EA005A8B63 /* Wikipedia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F82C71E2A0FB5EB005A8B63 /* Build configuration list for PBXNativeTarget "Wikipedia" */;
@@ -190,6 +238,10 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					6F5F9D512A12031F00F51B8E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 6F82C70F2A0FB5EA005A8B63;
+					};
 					6F82C70F2A0FB5EA005A8B63 = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -209,11 +261,19 @@
 			projectRoot = "";
 			targets = (
 				6F82C70F2A0FB5EA005A8B63 /* Wikipedia */,
+				6F5F9D512A12031F00F51B8E /* WikipediaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6F5F9D502A12031F00F51B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F82C70E2A0FB5EA005A8B63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -226,6 +286,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6F5F9D4E2A12031F00F51B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5F9D552A12031F00F51B8E /* WikipediaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F82C70C2A0FB5EA005A8B63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,7 +320,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6F5F9D572A12031F00F51B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F82C70F2A0FB5EA005A8B63 /* Wikipedia */;
+			targetProxy = 6F5F9D562A12031F00F51B8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		6F5F9D592A12031F00F51B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9R36M3H42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcig.WikipediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wikipedia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wikipedia";
+			};
+			name = Debug;
+		};
+		6F5F9D5A2A12031F00F51B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9R36M3H42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcig.WikipediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wikipedia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wikipedia";
+			};
+			name = Release;
+		};
 		6F82C71C2A0FB5EB005A8B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -385,7 +497,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -420,7 +532,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +552,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6F5F9D582A12031F00F51B8E /* Build configuration list for PBXNativeTarget "WikipediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5F9D592A12031F00F51B8E /* Debug */,
+				6F5F9D5A2A12031F00F51B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6F82C70B2A0FB5EA005A8B63 /* Build configuration list for PBXProject "Wikipedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

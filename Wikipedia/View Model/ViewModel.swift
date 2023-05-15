@@ -67,6 +67,7 @@ class ViewModel: ObservableObject {
         self.model = Model()
         
         $userInput
+            .dropFirst()
             .debounce(for: .seconds(0.3), scheduler: DispatchQueue.main)
             .removeDuplicates()
             .print("User input value")
