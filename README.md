@@ -1,4 +1,4 @@
-# Simple Wikipedia app
+# Simple Wikipedia Clone
 A Wikipedia-like app created in SwiftUI for learning purposes.
 Primary goal was to learn how to fetch data using Wikipedia API and then persist (cache) them. Due to a fact that  was my primary objective, I didn't go deep into UI/UX design - just made it look pleasant to the eye.
 
